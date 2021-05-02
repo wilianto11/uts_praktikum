@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+
+nav a {
+    padding:65px 0px 0px 150px;
+    text-shadow:rgb(52, 34, 221) 1px 1px 3px;
+	float: left;
+	color: rgb(19, 15, 15);
+	font-family: 'Exo', sans-serif;
+	font-size: 18px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: crimson;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+body {
+background-color: #bababa;
+  font-family: Tahoma,Geneva,sans-serif;
+}
+
+#wrap {
+    width:90%;
+    margin:auto;
+    background-color:rgb(224, 213, 213);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 10px #000;
+}
+
+#header{
+    background-color:rgb(212, 125, 17);
+    height:150px;
+    background-image: url('header.jpg');
+
+}
+
+#header h1{
+    color:#00125b;
+    padding:10px 0px 0px 20px;
+    text-shadow:#fff 1px 1px 3px;
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+#sidebar {
+    width:100%;
+    float:left;
+    border-right:1px solid #bababa;
+    border-bottom:1px solid #bababa;
+    border-left:1px solid #bababa;
+    border-radius: 10px;
+    background-image: url('side.jpg');
+}
+
+#judul_sidebar{
+    padding:3px;
+    text-align:center;
+    font-weight:bold;
+    border-bottom:1px solid #bababa;
+    background-color: antiquewhite;
+    color:white;
+    border-radius:5px;
+    background-image: url('judul side.jpg');
+}
+
+#isi_sidebar ul{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+#sidebar a{
+    display:block;
+    padding: 10px;
+    border-bottom:0px solid #bababa;
+    text-decoration:none;
+    font-size: medium;
+    color:rgb(243, 219, 7);
+}
+
+#sidebar a:hover{
+    color: #0eb7eb;
+}
+
+#konten{
+    padding:0px;
+    width:100%;
+    float:left;
+    font-size:26pt;
+    margin:5px;
+    border-right:1px solid #bababa;
+    border-bottom:1px solid #bababa;
+    border-top:1px solid #bababa;
+    border-left:1px solid #bababa;
+    border-radius: 10px;
+}
+#konten p {
+    font-size: 18pt;
+    font-style: oblique;
+}
+#konten p a {
+    font-size: 11pt;
+}
+
+#footer{
+    background-image:url('footer.jpg');
+    height:90px;
+}
+
+#footer #text{
+    color:rgb(43, 7, 248);
+    padding:10px;
+    text-align:center;
+    font-size:11pt;
+    text-shadow:#000 1px 1px 2px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
